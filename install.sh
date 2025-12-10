@@ -432,6 +432,9 @@ alias ochsplit="tmux split-window -v 'opencode'"
 alias oc4="~/oc-multi.sh"
 alias yolo="opencode --permission bash=allow"
 
+# fix ls completion
+compdef _ls eza
+
 # Initialize tools
 eval "$(zoxide init zsh)"
 
